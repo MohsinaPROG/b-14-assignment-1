@@ -245,6 +245,10 @@
     gap:20px;
     margin-bottom: 50px;
 }
+.pricing-card .last-button{
+    color:black;
+    border:1px solid black;
+}
 
 .pricing-card{
     background:#fff;
