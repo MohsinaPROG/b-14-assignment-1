@@ -88,7 +88,7 @@
 
  .speaker-container {
      width: 90%;
-     max-width: 1280px;
+     max-width: 1000px;
      margin: auto;
      display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -134,10 +134,9 @@
 
  }
 
- .pricing {
-     padding: 80px 0;
+ /* .pricing {
+     padding: 15px 0;
      text-align: center;
-     background: #f8fafc;
  }
 
  .pricing h2 {
@@ -151,19 +150,21 @@
 
  .pricing-container{
 
-    width:80%;
-    max-width:1100px;
+    width:90%;
+    max-width:900px;
     margin:auto;
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:30px;
+    margin-bottom: 60px;
 
 }
  .pricing-card {
      background: white;
-     padding: 40px;
+     padding: 25px;
      border-radius: 15px;
      box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    
  }
 
  .featured {
@@ -214,7 +215,121 @@
  .common-btn,
  .featured button {
      color: white;
- }
+ } */
+
+ /* ===== Pricing Section ===== */
+
+.pricing{
+    padding:40px 0;
+    text-align:center;
+}
+
+.pricing h2{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:35px;
+    font-size:15px;
+}
+
+.pricing-container{
+    width:90%;
+    max-width:900px;
+    margin:0 auto;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-bottom: 50px;
+}
+
+.pricing-card{
+    background:#fff;
+    padding:18px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+    border:1px solid #e5e7eb;
+}
+
+.featured{
+    background:#3d3939;
+    color:#fff;
+}
+
+.featured h1,
+.featured p,
+.featured li{
+    color:#fff;
+}
+
+.pricing-card p{
+    text-align:left;
+    font-size:12px;
+    margin:4px 0;
+    color:#666;
+}
+
+.pricing-card h1{
+    text-align:left;
+    font-size:42px;
+    margin:8px 0;
+}
+
+.pricing-card hr{
+    margin:12px 0;
+    border:none;
+    border-top:1px solid #ddd;
+}
+
+.featured hr{
+    border-top:1px solid #666;
+}
+
+.pricing-card ul{
+    margin:12px 0;
+    padding-left:18px;
+    color:#666;
+}
+
+.pricing-card li{
+    margin:8px 0;
+    font-size:14px;
+    line-height:1.4;
+    text-align: left;
+}
+
+li::marker{
+    color:#2563eb;
+}
+
+.pricing-card button{
+    width:100%;
+    margin-top:15px;
+    padding:12px;
+    border:1px solid #2563eb;
+    border-radius:8px;
+    background:#fff;
+    color:#2563eb;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.common-btn,
+.featured button{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+}
+
+.changed-border{
+    border:1px solid #111827 !important;
+    color:#111827 !important;
+    background:#fff;
+}
 
 
 .hackathon{
