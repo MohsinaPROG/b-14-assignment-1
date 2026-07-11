@@ -1,7 +1,6 @@
  * {
      padding: 0;
      margin: 0;
-     /* font-family: Arial, sans-serif; */
      font-family:'Arimo';
      
 
@@ -89,7 +88,7 @@
 
  .speaker-container {
      width: 90%;
-     max-width: 1000px;
+     max-width: 1280px;
      margin: auto;
      display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -107,7 +106,7 @@
  }
 
  .speaker-card img {
-     width: 100%;
+     width: 90%;
      height: 280px;
      object-fit: cover;
      display: block;
@@ -150,15 +149,16 @@
      margin-bottom: 50px;
  }
 
- .pricing-container {
-     width: 90%;
-     max-width: 1000px;
-     margin: auto;
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     gap: 30px;
- }
+ .pricing-container{
 
+    width:80%;
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+
+}
  .pricing-card {
      background: white;
      padding: 40px;
@@ -169,7 +169,6 @@
  .featured {
      background: rgb(61, 57, 57);
      color: white;
-     transform: scale(1.05);
  }
  .featured ul li{
     color:white;
@@ -229,7 +228,7 @@
 
 .hackathon-content{
 
-    max-width:1200px;
+    max-width:1280px;
     margin:auto;
 
 }
@@ -243,7 +242,7 @@
 
 .hackathon-subtitle{
 
-    max-width:700px;
+    max-width:1280px;
     margin:0 auto 60px;
     color:#cbd5e1;
     line-height:1.8;
@@ -328,7 +327,7 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    max-width:1200px;
+    max-width:1280px;
     margin:auto;
 
 }
@@ -381,7 +380,7 @@
     margin:35px auto 20px;
     border:none;
     border-top:1px solid #334155;
-    max-width:1200px;
+    max-width:1280px;
 
 }
 
