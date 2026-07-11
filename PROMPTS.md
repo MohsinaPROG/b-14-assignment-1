@@ -1,0 +1,1 @@
+Design a modern "AI Hackathon 2026" section for a DevConf 2026 landing page using only HTML5 and CSS3 (no JavaScript or CSS frameworks).
