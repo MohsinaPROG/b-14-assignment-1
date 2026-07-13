@@ -36,15 +36,14 @@
  }
  .btn-area {
      flex: 1;
-     display: flex;
-     justify-content: flex-end;
-     margin-right: 60px;
+     display: flex; 
+      justify-content: flex-end;
+     margin-right: 60px;  
  }
 
  ul li a {
      text-decoration: none;
  }
-
  .hero {
      background-image:
          linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.001)), url("./assets/banner.jpg");
@@ -55,7 +54,6 @@
      justify-content: center;
      align-items: center;
      text-align: center;
-
  }
 
  .hero-content {
@@ -74,6 +72,7 @@
  .btn {
      margin-top: 300px;
      padding: 10px 40px;
+     font-size: 15px;
  }
 
  .speakers {
@@ -134,91 +133,6 @@
 
  }
 
- /* .pricing {
-     padding: 15px 0;
-     text-align: center;
- }
-
- .pricing h2 {
-     font-size: 42px;
- }
-
- .subtitle {
-     color: #666;
-     margin-bottom: 50px;
- }
-
- .pricing-container{
-
-    width:90%;
-    max-width:900px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:30px;
-    margin-bottom: 60px;
-
-}
- .pricing-card {
-     background: white;
-     padding: 25px;
-     border-radius: 15px;
-     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
-    
- }
-
- .featured {
-     background: rgb(61, 57, 57);
-     color: white;
- }
- .featured ul li{
-    color:white;
- }
-
- .pricing-card h1 {
-     font-size: 48px;
-     margin: 20px 0;
-     text-align: left;
- }
-
- .pricing-card p {
-     text-align: left;
-     font-size: 12px;
- }
-
- .pricing-card ul {
-     padding: 0;
-     margin: 30px 0;
-     text-align: left;
-    color:#666;
- 
- }
-
- .pricing-card li {
-     margin: 15px 0;
- }
-
- li::marker {
-     color: #2563eb;
- }
-
- .pricing-card button {
-     width: 100%;
-     padding: 15px;
-     border: 1px solid #2563eb;
-     border-radius: 8px;
-     color: #2563eb;
-     font-size: 16px;
-     cursor: pointer;
- }
-
- .common-btn,
- .featured button {
-     color: white;
- } */
-
- /* ===== Pricing Section ===== */
-
 .pricing{
     padding:40px 0;
     text-align:center;
@@ -259,7 +173,7 @@
 }
 
 .featured{
-    background:#3d3939;
+    background: black;
     color:#fff;
 }
 
